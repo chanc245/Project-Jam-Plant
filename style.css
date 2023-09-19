@@ -1,0 +1,23 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  min-height: 100vh;
+  /* background: #dadada; */
+}
+
+canvas {
+  display: block;
+}
+
+.canvasLocation {
+  display: block;
+  justify-content: center;
+  align-items: center;
+
+  margin: 40px;
+}
