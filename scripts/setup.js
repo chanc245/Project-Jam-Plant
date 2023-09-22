@@ -318,7 +318,7 @@ function practiceVid() {
 }
 
 function vidPlay() {
-  practiceVideo.position(0, 0);
+  practiceVideo.position(456, 40); //I hate this.. 
   practiceVideo.show();
   practiceVideo.play();
 }
