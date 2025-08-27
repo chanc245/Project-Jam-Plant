@@ -11,4 +11,4 @@ let prevKey = ""; //switch variable for item collect
 //Item case Size:     120 * imgCom, 170 * imgCom
 //Door Size:          100 * imgCom,  50 * imgCom
 
-let interactKey = "/"
+let interactKey = "/";

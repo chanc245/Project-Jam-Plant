@@ -247,7 +247,7 @@ function locationMapBox() {
 
   for (let i = 0; i <= 6; i++) {
     // rect(rootMapX[i], rootMapY[i], mapSizeW, mapSizeL); //0
-    strokeWeight(3)
+    strokeWeight(3);
 
     rect(rootMapX[i], rootMapY[i] + mvDown, mapSizeW + 5, mtextBox);
 
@@ -318,7 +318,6 @@ function practiceVid() {
 }
 
 function vidPlay() {
-  practiceVideo.position(456, 40); //I hate this.. 
   practiceVideo.show();
   practiceVideo.play();
 }
@@ -337,5 +336,3 @@ function vidPlayWithKey() {
     BackgroundSong.stop();
   }
 }
-
-

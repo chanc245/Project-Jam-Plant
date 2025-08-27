@@ -74,6 +74,13 @@ function setup() {
   //VIDEO
   practiceVid();
 
+  const stage = select(".canvasLocation");
+  if (stage && practiceVideo) {
+    practiceVideo.parent(stage);
+    practiceVideo.style("position", "absolute");
+    practiceVideo.position(0, 0);
+  }
+
   //AUDIO
   BackgroundSong.play();
   BackgroundSong.loop();

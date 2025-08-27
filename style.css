@@ -4,7 +4,7 @@ body {
   padding: 0;
 
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   /* align-items: center; */
   min-height: 100vh;
   /* background: #dadada; */
@@ -15,9 +15,7 @@ canvas {
 }
 
 .canvasLocation {
-  display: block;
-  justify-content: center;
-  align-items: center;
-
-  margin: 40px;
+  position: relative;
+  width: 600px;
+  height: 400px;
 }
